@@ -9,13 +9,12 @@ body {
 
 .background {
   background: linear-gradient(90deg, #74ebd5, #acb6e5);
-  background-repeat: no-repeat;
   background-position: center;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 1200%;
 }
 
 p {
@@ -30,34 +29,45 @@ p {
   position: absolute;
   font-weight: bold;
   font-size: 40px;
-  left: 35%;
+  left: 38%;
+  text-align: center;
 
 }
 
 /* Middle Barrier*/
 
 .arrow1 {
-  width: 15%;
-  height: 70px;
+  width: 20%;
+  height: 90px;
   rotate: 40deg;
   top: 40%;
-  left: 25%;
+  left: 20%;
   position: absolute;
   opacity: 0;
 }
 
 .arrow2 {
-  width: 15%;
+  width: 20%;
   height: 70px;
-  rotate: -50deg;
+  rotate: -40deg;
   top: 55%;
   left: 63%;
   position: absolute;
   opacity: 0;
 }
 
-.ph1 {
+.arrow3 {
+  width: 50%;
+  height: 130px;
+  rotate: -155deg;
+  top: 185%;
+  left: 25%;
   position: absolute;
+  opacity: 0;
+}
+
+.ph1 .ph2 .ph3 {
+  position: relative;
   width: 93%;
   height: 90%;
   left: 50px;
@@ -85,7 +95,7 @@ p {
 .sphere2 {
   position: absolute;
   top: 43%; 
-  left: 35%;
+  left: 40%;
   width: 350px;
   height: 350px;
   background-color: white;
@@ -102,7 +112,7 @@ p {
 .sphere3 {
   position: absolute;
   top: 10px; 
-  left: 70%;
+  left: 75%;
   width: 330px;
   height: 300px;
   background-color: white;
@@ -115,6 +125,102 @@ p {
   padding: 10px;
   opacity: 0;
 }
+
+.sphere4 {
+  position: absolute;
+  top: 1200px; 
+  left: 72%;
+  width: 330px;
+  height: 300px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 17px;
+  padding: 10px;
+  opacity: 0;
+}
+
+.sphere5 {
+  position: absolute;
+  top: 1000px; 
+  left: 5%;
+  width: 330px;
+  height: 300px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 17px;
+  padding: 10px;
+  opacity: 0;
+}
+
+.oval {
+  position: absolute;
+  top: 1450px;
+  left: 5%;
+  height: 150px;
+  width: 600px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.oval h2 {
+  position: absolute;
+  top: 15%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.bullets li {
+  position: absolute;
+  top: 160%;
+  left: 155%;
+}
+
+.rectangle1 {
+  position: absolute;
+  top: 2100px;
+  left: 180%;
+  height: 500px;
+  width: 400px;
+  border-radius: 5%;
+  background-color: white;
+  text-align: center;
+}
+
+.rectangle1 p {
+  opacity: 0;
+}
+
+.rectangle1 li {
+  opacity: 0;
+}
+
+.rectangle2 {
+  position: absolute;
+  top: 2100px;
+  right: 130%;
+  height: 500px;
+  width: 400px;
+  border-radius: 5%;
+  background-color: white;
+  text-align: center;
+}
+
+.rectangle2 p {
+  opacity: 0;
+}
+
+.rectangle2 li {
+  opacity: 0;
+}
+
 
 
 /* Footer */
