@@ -1,0 +1,135 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow-x: hidden;
+  font-family: "Monospace", monospace;
+}
+
+.background {
+  background: linear-gradient(90deg, #74ebd5, #acb6e5);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+p {
+  /* margin: 0 0 0.35em 0; */
+  line-height: 1.2;
+  justify-content: center;
+  
+}
+
+.title {
+  top: -200px;
+  position: absolute;
+  font-weight: bold;
+  font-size: 40px;
+  left: 35%;
+
+}
+
+/* Middle Barrier*/
+
+.arrow1 {
+  width: 15%;
+  height: 70px;
+  rotate: 40deg;
+  top: 40%;
+  left: 25%;
+  position: absolute;
+  opacity: 0;
+}
+
+.arrow2 {
+  width: 15%;
+  height: 70px;
+  rotate: -50deg;
+  top: 55%;
+  left: 63%;
+  position: absolute;
+  opacity: 0;
+}
+
+.ph1 {
+  position: absolute;
+  width: 93%;
+  height: 90%;
+  left: 50px;
+  top: 50px;
+  background: transparent;
+}
+
+.sphere1 {
+  position: absolute;
+  top: 10px; 
+  left: 20px;
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 17px;
+  padding: 10px;
+  opacity: 0;
+}
+
+.sphere2 {
+  position: absolute;
+  top: 43%; 
+  left: 35%;
+  width: 350px;
+  height: 350px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 17px;
+  padding: 10px;
+  opacity: 0;
+}
+
+.sphere3 {
+  position: absolute;
+  top: 10px; 
+  left: 70%;
+  width: 330px;
+  height: 300px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 17px;
+  padding: 10px;
+  opacity: 0;
+}
+
+
+/* Footer */
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-image: url(images/footer.jpg);
+}
+
+.footer p {
+  margin: 0.15em 0;
+  line-height: 1.15;
+  font-size: 13px;
+  color: white;
+  text-align: right;
+}
