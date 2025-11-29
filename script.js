@@ -23,3 +23,23 @@ gsap.to(".rectangle2", {duration: 2, right: "15%"});
 gsap.to(".rectangle2 p", {duration: 2, opacity: 1, delay: 3});
 gsap.to(".rectangle2 li", {duration: 2, opacity: 1, delay: 3});
 
+gsap.to(".wbox1", {duration: 0.5, opacity: 1, delay: 1});
+
+gsap.to(".arrow4", {duration: 0.5, opacity: 1, delay: 3});
+gsap.to(".b5", {durationn: 0.5, top: "2900px", left: "75%", opacity: 1, delay: 3.5});
+gsap.to(".arrow4", {duration: 0.5, opacity: 0, delay: 4});
+
+gsap.to(".arrow5", {duration: 0.5, opacity: 1, delay: 4});
+gsap.to(".b6", {durationn: 0.5, top: "3200px", left: "10%", opacity: 1, delay: 4.5});
+gsap.to(".arrow5", {duration: 0.5, opacity: 0, delay: 5.5});
+
+gsap.to(".arrow6", {duration: 0.5, opacity: 1, delay: 5.5});
+gsap.to(".b7", {durationn: 0.5, top: "2900px", left: "10%", opacity: 1, delay: 6});
+gsap.to(".arrow6", {duration: 0.5, opacity: 0, delay: 7});
+
+gsap.to(".arrow7", {duration: 0.5, opacity: 1, delay: 7});
+gsap.to(".b8", {durationn: 0.5, top: "3200px", left: "75%", opacity: 1, delay: 7.5});
+gsap.to(".arrow7", {duration: 0.5, opacity: 0, delay: 8.5});
+
+gsap.to(".oval2", {duration: 0.5, opacity: 1, delay: 9.5});
+gsap.to(".oval2 h3", {duration: 0.5, opacity: 1, delay: 9.5});
