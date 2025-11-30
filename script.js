@@ -209,6 +209,8 @@ gsap.to(".b4", {
   left: "35%",
 });
 
+
+
 /*
 gsap.to(".b1", { duration: 0.5, left: "35%", delay: 2 });
 gsap.to(".b2", { duration: 0.5, left: "35%", delay: 2.5 });
@@ -223,7 +225,43 @@ gsap.to(".rectangle2", {duration: 2, right: "15%"});
 gsap.to(".rectangle2 p", {duration: 2, opacity: 1, delay: 3});
 gsap.to(".rectangle2 li", {duration: 2, opacity: 1, delay: 3});
 */
-gsap.to(".wbox1", { duration: 0.5, opacity: 1, delay: 1 });
+
+
+gsap.to(".p4Deco", {
+  scrollTrigger: {
+    trigger: ".ph4",
+    start: "top center",
+    toggleActions: "play none none none",
+  },
+  duration: 2,
+  left: "-25%",
+});
+
+
+function toggleb5() {
+  gsap.to(".b5", { durationn: 0.5, opacity: 1, left: "35%" });
+}
+
+function toggleb6() {
+  gsap.to(".b6", { durationn: 0.5, opacity: 1, top: "38%", left: "35%" });
+}
+
+function toggleb7() {
+  gsap.to(".b7", { durationn: 0.5, opacity: 1, top: "53%", left: "35%" });
+}
+
+function toggleb8() {
+  gsap.to(".b8", { durationn: 0.5, opacity: 1, top: "68%", left: "35%" });
+  gsap.to(".p4activator", { duration: 0.5, top: "70%", delay: 1, ease: "bounce.in" });  
+
+}
+
+function togglesquarep4() {
+  gsap.to(".square", { duration: 1, right: "20%" });
+}
+
+/*
+gsap.to(".p4Deco", { duration: 0.5, left: "-15%", delay: 1 });
 
 gsap.to(".arrow4", { duration: 0.5, opacity: 1, delay: 3 });
 gsap.to(".b5", { durationn: 0.5, opacity: 1, delay: 3.5 });
@@ -243,3 +281,4 @@ gsap.to(".arrow7", { duration: 0.5, opacity: 0, delay: 8.5 });
 
 gsap.to(".oval2", { duration: 0.5, opacity: 1, delay: 9.5 });
 gsap.to(".oval2 h3", { duration: 0.5, opacity: 1, delay: 9.5 });
+*/
