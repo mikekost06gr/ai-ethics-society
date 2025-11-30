@@ -4,23 +4,35 @@ body {
   padding: 0;
   height: 100vh;
   overflow-x: hidden;
-  font-family: "Monospace", monospace;
+  font-family: "Monospace", monospace;  
+  background: linear-gradient(#5614b0, #dbd65c);
+  background-repeat: no-repeat;
 }
 
-.background {
-  background: linear-gradient(90deg, #74ebd5, #acb6e5);
-  background-position: center;
+/*.background{
   position: absolute;
   top: 0;
-  left: 0;
   width: 100%;
-  height: 500%;
+  height: 400%;
+  background: linear-gradient(#5614b0, #dbd65c);
+  background-repeat: no-repeat;
 }
-
+*/
 p {
   /* margin: 0 0 0.35em 0; */
   line-height: 1.2;
   justify-content: center;
+}
+
+/*selida 1*/
+.ph1{
+  position: relative;
+  width: 99%;
+  height: 99%;
+  background: transparent;
+  top: 0.5%;
+  left: 0.5%;
+
 }
 
 .title {
@@ -32,117 +44,6 @@ p {
   text-align: center;
 }
 
-.title2 {
-  top: 950px;
-  position: absolute;
-  font-weight: bold;
-  font-size: 40px;
-  left: 50%;
-  text-align: center;
-} 
-
-.title3 {
-  top: 2035px;
-  left: 15%;
-  position: absolute;
-  font-weight: bold;
-  font-size: 18px;
-  text-align: center;
-  opacity: 0;
-}
-
-.title4 {
-  top: 2050px;
-  right: 21%;
-  position: absolute;
-  font-weight: bold;
-  font-size: 18px;
-  text-align: center;
-  opacity: 1;
-}
-
-/* Middle Barrier*/
-
-.arrow1 {
-  width: 25%;
-  height: 90px;
-  rotate: 40deg;
-  top: 40%;
-  left: 20%;
-  position: absolute;
-  opacity: 0;
-}
-
-.arrow2 {
-  width: 25%;
-  height: 70px;
-  rotate: -40deg;
-  top: 55%;
-  left: 63%;
-  position: absolute;
-  opacity: 0;
-}
-
-.arrow3 {
-  width: 50%;
-  height: 130px;
-  rotate: -155deg;
-  top: 180%;
-  left: 25%;
-  position: absolute;
-  opacity: 0;
-}
-
-.arrow4 {
-  width: 50px;
-  height: 120px;
-  rotate: -125deg;
-  top: 2900px;
-  left: 67%;
-  position: absolute;
-  opacity: 0;
-}
-
-.arrow5 {
-  width: 50px;
-  height: 120px;
-  rotate: 100deg;
-  top: 3150px;
-  left: 30%;
-  position: absolute;
-  opacity: 0;
-}
-
-.arrow6 {
-  width: 50px;
-  height: 160px;
-  rotate: 112deg;
-  top: 2870px;
-  left: 30%;
-  position: absolute;
-  opacity: 0;
-}
-
-.arrow7 {
-  width: 50px;
-  height: 120px;
-  rotate: -65deg;
-  top: 3120px;
-  left: 66%;
-  position: absolute;
-  opacity: 0;
-}
-
-
-
-.ph1 .ph2 .ph3 .ph4 {
-  position: relative;
-  width: 93%;
-  height: 90%;
-  left: 50px;
-  top: 50px;
-  background: transparent;
-}
 
 .sphere1 {
   position: absolute;
@@ -195,10 +96,51 @@ p {
   opacity: 0;
 }
 
-.sphere4 {
+
+
+
+.arrow1 {
+  width: 25%;
+  height: 100px;
+  rotate: 30deg;
+  top: 40%;
+  left: 15%;
   position: absolute;
-  top: 1200px;
-  left: 72%;
+  opacity: 0;
+}
+
+.arrow2 {
+  width: 20%;
+  height: 10%;
+  rotate: -40deg;
+  top: 40%;
+  left: 58%;
+  position: absolute;
+  opacity: 0;
+}
+
+
+
+
+
+
+
+
+/*selida 2*/
+.ph2{
+  position: relative;
+  width: 99%;
+  height: 99%;
+  background: transparent;
+  top: 80%;
+  left: 0.5%;
+
+}
+
+
+.sphere4 {
+  left: 5%;
+  position: absolute;
   width: 330px;
   height: 300px;
   background-color: white;
@@ -214,8 +156,8 @@ p {
 
 .sphere5 {
   position: absolute;
-  top: 1000px;
-  left: 5%;
+  top: 15%;
+  left: 65%;
   width: 330px;
   height: 300px;
   background-color: white;
@@ -231,12 +173,13 @@ p {
 
 .oval {
   position: absolute;
-  top: 1550px;
-  left: 5%;
+  top: 60%;
+  left: 10%;
   height: 150px;
   width: 600px;
   background-color: white;
   border-radius: 50%;
+  opacity: 0;
 }
 
 .oval h2 {
@@ -246,15 +189,222 @@ p {
   font-size: 18px;
 }
 
-.bullets li {
+
+.bullets{
   position: absolute;
-  top: 160%;
-  left: 160%;
+  top: 20%;
+  left: 25%;
 }
+
+.bullets li {
+  position: relative;
+  left: -250%;
+}
+
+
+.arrow3 {
+  width: 30%;
+  height: 100px;
+  transform: rotate(-20deg) scaleX(-1);
+  top: 55%;
+  left: 42%;
+  position: absolute;
+  opacity: 0;
+}
+
+
+
+/*selida 3*/
+
+.ph3{
+  position: relative;
+  width: 99%;
+  height: 99%;
+  background: transparent;
+  top: 140%;
+  left: 0.5%;
+
+}
+
+.p3Deco {
+  position: absolute;
+  top: 25%;
+  left: 43%;
+  width: 200px;
+  height: 200px;
+  opacity: 0;
+}
+
+.activator1 {
+  top: 70%;
+  left: 24%;
+  --primary: 255, 90, 120;
+  --secondary: 150, 50, 60;
+  width: 60px;
+  height: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  user-select: none;
+  touch-action: manipulation;
+  outline: 10px solid rgb(var(--primary), .5);
+  border-radius: 100%;
+  position: relative;
+  transition: .3s;
+}
+
+.activator1 .back {
+  background: rgb(var(--secondary));
+  border-radius: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.activator1 .front {
+  background: linear-gradient(0deg, rgba(var(--primary), .6) 20%, rgba(var(--primary)) 50%);
+  box-shadow: 0 .5em 1em -0.2em rgba(var(--secondary), .5);
+  border-radius: 100%;
+  position: absolute;
+  border: 1px solid rgb(var(--secondary));
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: inherit;
+  transform: translateY(-15%);
+  transition: .15s;
+  color: rgb(var(--secondary));
+}
+
+.activator1:active .front {
+  transform: translateY(0%);
+  box-shadow: 0 0;
+}
+
+
+
+
+.activator2 {
+  top: 70%;
+  left: 70%;
+  --primary: 255, 90, 120;
+  --secondary: 150, 50, 60;
+  width: 60px;
+  height: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  user-select: none;
+  touch-action: manipulation;
+  outline: 10px solid rgb(var(--primary), .5);
+  border-radius: 100%;
+  position: relative;
+  transition: .3s;
+}
+
+.activator2 .back {
+  background: rgb(var(--secondary));
+  border-radius: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.activator2 .front {
+  background: linear-gradient(0deg, rgba(var(--primary), .6) 20%, rgba(var(--primary)) 50%);
+  box-shadow: 0 .5em 1em -0.2em rgba(var(--secondary), .5);
+  border-radius: 100%;
+  position: absolute;
+  border: 1px solid rgb(var(--secondary));
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: inherit;
+  transform: translateY(-15%);
+  transition: .15s;
+  color: rgb(var(--secondary));
+}
+
+.activator2:active .front {
+  transform: translateY(0%);
+  box-shadow: 0 0;
+}
+
+
+
+.p4activator {
+  top: -500%;
+  left: 35%;
+  --primary: 255, 90, 120;
+  --secondary: 150, 50, 60;
+  width: 60px;
+  height: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  user-select: none;
+  touch-action: manipulation;
+  outline: 10px solid rgb(var(--primary), .5);
+  border-radius: 100%;
+  position: relative;
+  transition: .3s;
+}
+
+.p4activator .back {
+  background: rgb(var(--secondary));
+  border-radius: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.p4activator .front {
+  background: linear-gradient(0deg, rgba(var(--primary), .6) 20%, rgba(var(--primary)) 50%);
+  box-shadow: 0 .5em 1em -0.2em rgba(var(--secondary), .5);
+  border-radius: 100%;
+  position: absolute;
+  border: 1px solid rgb(var(--secondary));
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: inherit;
+  transform: translateY(-15%);
+  transition: .15s;
+  color: rgb(var(--secondary));
+}
+
+.p4activator:active .front {
+  transform: translateY(0%);
+  box-shadow: 0 0;
+}
+
 
 .rectangle1 {
   position: absolute;
-  top: 2100px;
   left: 180%;
   height: 500px;
   width: 400px;
@@ -278,7 +428,6 @@ p {
 
 .rectangle2 {
   position: absolute;
-  top: 2100px;
   right: 130%;
   height: 500px;
   width: 400px;
@@ -300,49 +449,198 @@ p {
   opacity: 0;
 }
 
-.rectangle3 {
+
+/*selida 4*/
+
+.ph4{
+  position: relative;
+  width: 120%;
+  height: 99%;
+  background: transparent;
+  top: 180%;
+  left: 5%;
+
+}
+.p4Deco {
+  z-index: 1;
+  top: 10%;  
+  left: -50%;
   position: absolute;
-  top: 2900px;
-  left: 38%;
-  height: 500px;
-  width: 400px;
-  border-radius: 5%;
+  width: 40%;
+  height: 80%;
   background-color: white;
-  text-align: center;
-  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
-    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
-    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
-    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
-    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-  opacity: 0;
+  border-radius: 80%;
+
 }
 
+
+.f1{
+  top: 25%;
+  left: 83%;
+  position: absolute;
+}
+.f2{
+  top: 38%;
+  left: 87%;
+  position: absolute;
+}
+
+.f3{
+  top: 53%;
+  left: 88%;
+  position: absolute;
+
+}
+.f4{
+  top: 70%;
+  left: 85%;
+  position: absolute;
+
+}
+
+
+.f1, .f2, .f3, .f4 {
+  padding: 20px 20px;
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  /* overflow: hidden; */
+  transition: 50ms;
+}
+
+.f1 span, .f2 span, .f3 span, .f4 span {
+  color: gray;
+  position: relative;
+  transition: 500ms;
+  transition-delay: 500ms;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.f1:before, .f2:before, .f3:before, .f4:before {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 0%;
+  left: 50%;
+  right: 50%;
+  top: 50%;
+  bottom: 50%;
+  transition: 500ms;
+  transition-delay: 500ms;
+  background-color: red;
+  box-shadow: 0 0 10px red,
+   0 0 30px red, 
+   0 0 50px red;
+}
+
+.f1 div, .f2 div, .f3 div, .f4 div {
+  transition: 500ms;
+  position: absolute;
+  background-color: red;
+  box-shadow: 0 0 15px red, 0 0 30px red, 0 0 50px red;
+}
+
+.f1 .top , .f2 .top, .f3 .top, .f4 .top {
+  width: 15px;
+  height: 2px;
+  top: 0;
+  left: 0;
+}
+
+
+.f1 .bottom, .f2 .bottom, .f3 .bottom, .f4 .bottom {
+  width: 15px;
+  height: 2px;
+  bottom: 0;
+  right: 0;
+}
+
+.f1 .left, .f2 .left, .f3 .left, .f4 .left {
+  width: 2px;
+  height: 15px;
+  top: 0;
+  left: 0;
+}
+
+.f1 .right, .f2 .right, .f3 .right, .f4 .right {
+  width: 2px;
+  height: 15px;
+  bottom: 0;
+  right: 0;
+}
+
+.f1:hover, .f2:hover, .f3:hover, .f4:hover {
+  color: #000;
+}
+
+.f1:hover span, .f2:hover span, .f3:hover span, .f4:hover span {
+  color: #000;
+}
+
+.f1:hover:before, .f2:hover:before, .f3:hover:before, .f4:hover:before {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.f1:hover .top,
+.f1:hover .bottom,
+.f2:hover .top,
+.f2:hover .bottom,
+.f3:hover .top,
+.f3:hover .bottom,
+.f4:hover .top,
+.f4:hover .bottom {
+  width: 100%;
+}
+
+
+.f1:hover .left, .f2:hover .left, .f3:hover .left, .f4:hover .left,
+.f1:hover .right, .f2:hover .right, .f3:hover .right, .f4:hover .right {
+  height: 100%;
+}
+
+
+
+.bullets2{
+  position: absolute;
+  top: 25%;
+  left: 25%;
+
+}
 
 .bullets2 li {
-  position: absolute;
-  top: 3000px;
-  left: 55%;
-  opacity: 0;
+  position: relative;
+  left: -450%;
 }
 
-
-.oval2 {
+.halfSphereText {
   position: absolute;
-  top: 3350px;
-  left: 20%;
-  height: 140px;
-  width: 60%;
+  top: 8%;
+  width: 20%;
+  left: 55%;
+}
+
+.square {
+  position: absolute;
+  right: -20%;
+  height: 80%;
+  width: 10%;
   text-align: center;
   background-color: white;
-  border-radius: 50%;
-  opacity: 0;
-
+  border-radius: 20px;
 }
 
-.oval2 h3 {
+.sqaure h3 {
   position: absolute;
   top: 15%;
-  text-align: center;
+  text-align: left;
   font-size: 18px;
 }
 

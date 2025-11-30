@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="background"></div>
-    
-    <p class="title">Τεχνητή Νοημοσύνη:<br />Ηθική & Κοινωνία</p>
+
+ 
 
     <div class="ph1">
+
+         <p class="title">&emsp;Τεχνητή Νοημοσύνη:<br />Ηθική & Κοινωνία</p>
 
       <img class="arrow1" src="arrows/arrow1.svg" />
       
@@ -26,7 +27,7 @@
         </p>
       </div>
 
-      <img class="arrow2" src="arrows/arrow2.svg" />
+      <img class="arrow2" src="arrows/arrow1.svg" />
       
       <div class="sphere2">
         <p>
@@ -50,7 +51,6 @@
     </div>
 
     <div class="ph2">
-      <p class="title2">Αλγοριθμική Μεροληψία</p>
 
       <div class="sphere4">
         <p>
@@ -61,7 +61,7 @@
         </p>
       </div>
       
-      <img class="arrow3" src="arrows/arrow3.svg" />
+      <img class="arrow3" src="arrows/arrow2.svg" />
     
       <div class="sphere5">
         <p>
@@ -86,7 +86,18 @@
     </div>
 
     <div class="ph3">
-      <p class="title3">Διακυβέρνηση, Ηθική & Κοινωνικό Όφελος <br> Τεχνητής Νοημοσύνης</p>
+
+
+      <button class="activator1" onclick="toggleRectangle1()">
+          <span class="back"></span>
+          <span class="front"></span>
+      </button>
+      <button class="activator2" onclick="toggleRectangle2()">
+          <span class="back"></span>
+          <span class="front"></span>
+      </button>
+
+      <img class="p3Deco" src="images/Artificial Inteligence.png" alt="">
 
       <div class="rectangle1">
         <p>
@@ -103,7 +114,6 @@
         </p>
       </div>
 
-      <p class="title4">ChatGPT & Εκπαίδευση</p>
       <div class="rectangle2">
         <p>
           Τα μεγάλα γλωσσικά μοντέλα, όπως το ChatGPT, έχουν αρχίσει να αλλάζουν την εκπαιδευτική διαδικασία.
@@ -122,22 +132,65 @@
     </div>
 
     <div class="ph4">
+    
+      <div class="p4Deco">
 
-      <div class="rectangle3">
-        <p>
+
+        <button class="f1" onclick="toggleb5()">
+          <span></span>
+          <div class="top"></div>
+          <div class="left"></div>
+          <div class="bottom"></div>
+          <div class="right"></div>
+        </button>
+
+        <button class="f2" onclick="toggleb6()">
+          <span></span>
+          <div class="top"></div>
+          <div class="left"></div>
+          <div class="bottom"></div>
+          <div class="right"></div>
+        </button>
+
+        <button class="f3" onclick="toggleb7()">
+          <span></span>
+          <div class="top"></div>
+          <div class="left"></div>
+          <div class="bottom"></div>
+          <div class="right"></div>
+        </button>
+
+
+        
+        <button class="f4" onclick="toggleb8()">
+          <span></span>
+          <div class="top"></div>
+          <div class="left"></div>
+          <div class="bottom"></div>
+          <div class="right"></div>
+        </button>
+
+        <p class="halfSphereText">
           Η Τεχνητή Νοημοσύνη μπορεί να λειτουργήσει ως μοχλός συμπερίληψης στην εκπαίδευση, αρκεί να σχεδιαστεί με προσοχή στις ανάγκες διαφορετικών μαθησιακών προφίλ.<br>
           <br> Σύγχρονες έρευνες δείχνουν ότι εργαλεία όπως το ChatGPT, τα πολυμέσα, ή πλατφόρμες δημιουργίας περιεχομένου (π.χ. Canva) μπορούν να ενισχύσουν τη μάθηση μαθητών με μαθησιακές δυσκολίες, διάσπαση προσοχής ή διαφορετικά στυλ μάθησης.<br>
           <br> Προσφέρουν:
-          <ul>
-          <li class="b5">περισσότερους τρόπους έκφρασης</li> <br>
-          <li class="b6">δυνατότητα αυτοκαθοδήγησης</li> <br>
-          <li class="b7">συνεργατική μάθηση</li> <br>
-          <li class="b8">βελτίωση ψηφιακών και κοινωνικών δεξιοτήτων</li>
-          </ul> 
         </p>
       </div>
+      
+      <button class="p4activator" onclick="togglesquarep4()">
+          <span class="back"></span>
+          <span class="front"></span>
+      </button>
 
-      <div class="oval2">
+      
+      <div class="bullets2">
+        <li class="b5">περισσότερους τρόπους έκφρασης</li>
+        <li class="b6">δυνατότητα αυτοκαθοδήγησης</li>
+        <li class="b7">συνεργατική μάθηση</li>
+        <li class="b8" id="#b8">βελτίωση ψηφιακών και κοινωνικών δεξιοτήτων</li>
+      </div>
+
+      <div class="square">
         <h3>
           Απαιτείται όμως προσοχή, λόγω περιορισμών όπως το μέγεθος δείγματος, η διάρκεια μιας παρέμβασης και η ανάγκη για μακροχρόνια αξιολόγηση του αντίκτυπου
         </h3>
@@ -157,6 +210,7 @@
     </div>
     
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
     <script src="script.js"></script>
   
   </body>
