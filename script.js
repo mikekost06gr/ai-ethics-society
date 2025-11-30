@@ -299,6 +299,16 @@ if (title2) {
 });
 }
 
+gsap.to(".title5", {
+  scrollTrigger: {
+    trigger: ".ph4",
+    start: "top center",
+    toggleActions: "play none none none",
+  },
+  duration: 2,
+  left: "20%",
+});
+
 gsap.to(".footer", {
   scrollTrigger: {
     trigger: ".ph4",
