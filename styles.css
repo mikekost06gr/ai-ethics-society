@@ -100,21 +100,21 @@ p {
 
 
 .arrow1 {
-  width: 25%;
+  width: 22%;
   height: 100px;
   rotate: 30deg;
   top: 40%;
-  left: 15%;
+  left: 20%;
   position: absolute;
   opacity: 0;
 }
 
 .arrow2 {
-  width: 20%;
+  width: 16%;
   height: 10%;
   rotate: -40deg;
-  top: 40%;
-  left: 58%;
+  top: 42%;
+  left: 62%;
   position: absolute;
   opacity: 0;
 }
@@ -132,9 +132,18 @@ p {
   width: 99%;
   height: 99%;
   background: transparent;
-  top: 80%;
+  top: 50%;
   left: 0.5%;
 
+}
+
+.title2 {
+  position: absolute;
+  font-weight: bold;
+  font-size: 40px;
+  top: -10%;
+  right: 10%;
+  text-align: center;
 }
 
 
@@ -157,7 +166,7 @@ p {
 .sphere5 {
   position: absolute;
   top: 15%;
-  left: 65%;
+  right: 5%;
   width: 330px;
   height: 300px;
   background-color: white;
@@ -173,7 +182,7 @@ p {
 
 .oval {
   position: absolute;
-  top: 60%;
+  top: 66%;
   left: 10%;
   height: 150px;
   width: 600px;
@@ -206,8 +215,8 @@ p {
   width: 30%;
   height: 100px;
   transform: rotate(-20deg) scaleX(-1);
-  top: 55%;
-  left: 42%;
+  top: 64%;
+  left: 55%;
   position: absolute;
   opacity: 0;
 }
@@ -221,9 +230,29 @@ p {
   width: 99%;
   height: 99%;
   background: transparent;
-  top: 140%;
+  top: 100%;
   left: 0.5%;
 
+}
+
+.title3 {
+  position: absolute;
+  font-weight: bold;
+  font-size: 18px;
+  top: -3%;
+  left: 8%;
+  text-align: center;
+  opacity: 0;
+}
+
+.title4 {
+  position: absolute;
+  font-weight: bold;
+  font-size: 18px;
+  top: 0%;
+  right: 14%;
+  text-align: center;
+  opacity: 0;
 }
 
 .p3Deco {
@@ -236,8 +265,8 @@ p {
 }
 
 .activator1 {
-  top: 70%;
-  left: 24%;
+  top: 80%;
+  left: 20%;
   --primary: 255, 90, 120;
   --secondary: 150, 50, 60;
   width: 60px;
@@ -293,8 +322,8 @@ p {
 
 
 .activator2 {
-  top: 70%;
-  left: 70%;
+  top: 80%;
+  left: 72%;
   --primary: 255, 90, 120;
   --secondary: 150, 50, 60;
   width: 60px;
@@ -461,13 +490,25 @@ p {
   left: 5%;
 
 }
+
+.title5 {
+  position: absolute;
+  font-weight: bold;
+  font-size: 40px;
+  top: -5%;
+  left: 20%;
+  text-align: center;
+  opacity: 1;
+}
+
+
 .p4Deco {
   z-index: 1;
-  top: 10%;  
+  top: 0%;  
   left: -50%;
   position: absolute;
   width: 40%;
-  height: 80%;
+  height: 95%;
   background-color: white;
   border-radius: 80%;
 
@@ -622,15 +663,16 @@ p {
 
 .halfSphereText {
   position: absolute;
-  top: 8%;
+  top: 2%;
   width: 20%;
   left: 55%;
 }
 
 .square {
   position: absolute;
+  top: 20%;
   right: -20%;
-  height: 80%;
+  height: 50%;
   width: 10%;
   text-align: center;
   background-color: white;
@@ -648,9 +690,10 @@ p {
 
 .footer {
   position: fixed;
-  bottom: 0;
+  bottom: -100%;
   width: 100%;
   background-image: url(images/footer.jpg);
+  opacity: 0;
 }
 
 .footer p {

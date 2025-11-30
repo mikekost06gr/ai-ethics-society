@@ -85,8 +85,18 @@ gsap.to(".rectangle1", {
     toggleActions: "play none none none",
   },
   duration: 2,
-  left: "15%",
+  left: "8%",
 });
+
+gsap.to(".title3", {
+  scrollTrigger: {
+    trigger: ".ph3",
+    start: "top center",
+    toggleActions: "play none none none",
+  },
+  duration: 2,
+  opacity: 1,
+})
 
 gsap.to(".rectangle1 p", {
   scrollTrigger: {
@@ -120,8 +130,18 @@ gsap.to(".rectangle2", {
     toggleActions: "play none none none",
   },
   duration: 2,
-  right: "15%",
+  right: "8%",
 });
+
+gsap.to(".title4", {
+  scrollTrigger: {
+    trigger: ".ph3",
+    start: "top center",
+    toggleActions: "play none none none",
+  },
+  duration: 2,
+  opacity: 1,
+})
 
 gsap.to(".rectangle2 p", {
   scrollTrigger: {
@@ -257,9 +277,38 @@ function toggleb8() {
 }
 
 function togglesquarep4() {
-  gsap.to(".square", { duration: 1, right: "20%" });
+  gsap.to(".square", { duration: 1, right: "20.5%" });
 }
 
+const title2 = document.querySelector('.title2');
+if (title2) {
+  const txt = title2.textContent.trim();
+  title2.innerHTML = txt.split('').map(ch => ch === ' ' ? '<span class="char">&nbsp;</span>' : `<span class="char">${ch}</span>`).join('');
+  gsap.set('.title2 .char', {opacity: 0, x: 20, display: 'inline-block'});
+  gsap.to('.title2 .char', {
+    scrollTrigger: {
+    trigger: ".ph2",
+    start: "top center",
+    toggleActions: "play none none none",
+  }
+  ,duration: 0.45, 
+  opacity: 1, 
+  x: 0,
+  stagger: 0.06,
+  ease: 'power2.out',
+});
+}
+
+gsap.to(".footer", {
+  scrollTrigger: {
+    trigger: ".ph4",
+    start: "mid center",
+    toggleActions: "play none none none",
+  },
+  duration: 2,
+  opacity: 1,
+  bottom: "0%",
+  });
 /*
 gsap.to(".p4Deco", { duration: 0.5, left: "-15%", delay: 1 });
 
