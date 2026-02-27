@@ -696,3 +696,324 @@ p {
   color: white;
   text-align: right;
 }
+
+/* Responsive */
+@media (max-width: 1200px) {
+  .title,
+  .title2,
+  .title5 {
+    font-size: 32px;
+  }
+
+  .sphere1,
+  .sphere2,
+  .sphere3,
+  .sphere4,
+  .sphere5 {
+    width: min(42vw, 320px);
+    height: min(42vw, 320px);
+    font-size: 16px;
+  }
+
+  .rectangle1,
+  .rectangle2 {
+    width: min(42vw, 420px);
+    height: auto;
+    min-height: 500px;
+    padding: 12px;
+  }
+
+  .oval {
+    width: min(78vw, 620px);
+  }
+
+  .halfSphereText {
+    width: 34%;
+  }
+
+  .square {
+    width: 26%;
+  }
+}
+
+@media (max-width: 900px) {
+  html,
+  body {
+    height: auto;
+    min-height: 100%;
+  }
+
+  .ph1,
+  .ph2,
+  .ph3,
+  .ph4,
+  .ph5 {
+    width: 100%;
+    height: auto;
+    min-height: auto;
+    top: 0;
+    left: 0;
+    padding: 28px 14px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .ph1 > *,
+  .ph2 > *,
+  .ph3 > *,
+  .ph4 > *,
+  .ph5 > * {
+    width: min(94vw, 760px);
+    box-sizing: border-box;
+  }
+
+  .title,
+  .title2,
+  .title3,
+  .title4,
+  .title5,
+  .title6 {
+    position: static !important;
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+    font-size: clamp(24px, 6vw, 34px);
+    text-align: center;
+    margin: 0 0 6px;
+    opacity: 1;
+    line-height: 1.15;
+  }
+
+  .sphere1,
+  .sphere2,
+  .sphere3,
+  .sphere4,
+  .sphere5,
+  .oval,
+  .rectangle1,
+  .rectangle2,
+  .p3Deco,
+  .p4Deco,
+  .square,
+  .bibliography,
+  .bullets,
+  .bullets2,
+  .halfSphereText,
+  .activator1,
+  .activator2,
+  .p4activator {
+    position: static !important;
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+    bottom: auto !important;
+  }
+
+  .sphere1,
+  .sphere2,
+  .sphere3,
+  .sphere4,
+  .sphere5 {
+    width: min(86vw, 360px);
+    height: min(86vw, 360px);
+    opacity: 1;
+    font-size: 15px;
+    padding: 14px;
+  }
+
+  .bullets,
+  .bullets2,
+  .bibliography {
+    width: 100%;
+    padding-left: 18px;
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  .bullets li,
+  .bullets2 li {
+    left: 0 !important;
+    top: auto !important;
+    opacity: 1;
+    margin-bottom: 6px;
+    line-height: 1.35;
+  }
+
+  .bibliography li {
+    opacity: 1;
+    margin-bottom: 10px;
+    line-height: 1.35;
+    overflow-wrap: anywhere;
+  }
+
+  .bibliography a {
+    word-break: break-word;
+  }
+
+  .oval {
+    width: min(90vw, 650px);
+    height: auto;
+    border-radius: 24px;
+    padding: 12px 14px;
+    opacity: 1;
+  }
+
+  .oval h2 {
+    position: static;
+    margin: 0;
+    font-size: 18px;
+  }
+
+  .rectangle1,
+  .rectangle2 {
+    width: min(92vw, 650px);
+    min-height: auto;
+    height: auto;
+    border-radius: 16px;
+    padding: 12px 14px;
+  }
+
+  .rectangle1 ul,
+  .rectangle2 ul {
+    margin: 8px 0;
+    padding-left: 18px;
+    text-align: left;
+  }
+
+  .rectangle1 li,
+  .rectangle2 li {
+    margin-bottom: 5px;
+  }
+
+  .rectangle1 p,
+  .rectangle1 li,
+  .rectangle2 p,
+  .rectangle2 li {
+    opacity: 1;
+  }
+
+  .p3Deco {
+    width: min(60vw, 230px);
+    height: auto;
+    opacity: 1;
+  }
+
+  .p4Deco {
+    width: min(92vw, 700px);
+    height: auto;
+    border-radius: 24px;
+    padding: 16px;
+    text-align: left;
+  }
+
+  .halfSphereText {
+    width: 100%;
+    margin: 0;
+  }
+
+  .f1,
+  .f2,
+  .f3,
+  .f4 {
+    position: static;
+    margin-right: 4px;
+    margin-bottom: 4px;
+  }
+
+  .square {
+    width: min(92vw, 700px);
+    height: auto;
+    padding: 12px 14px;
+  }
+
+  .square h3 {
+    position: static;
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .arrow1,
+  .arrow2,
+  .arrow3 {
+    display: none;
+  }
+
+  .footer {
+    position: static;
+    opacity: 1;
+    margin-top: 24px;
+    padding: 10px 14px;
+  }
+
+  .footer p {
+    text-align: center;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title,
+  .title2,
+  .title3,
+  .title4,
+  .title5,
+  .title6 {
+    font-size: clamp(20px, 7vw, 26px);
+    margin-bottom: 4px;
+  }
+
+  p,
+  li {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .ph1,
+  .ph2,
+  .ph3,
+  .ph4,
+  .ph5 {
+    padding: 22px 10px;
+    gap: 10px;
+  }
+
+  .sphere1,
+  .sphere2,
+  .sphere3,
+  .sphere4,
+  .sphere5 {
+    width: min(88vw, 330px);
+    height: min(88vw, 330px);
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  .oval h2,
+  .square h3 {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+
+  .rectangle1,
+  .rectangle2,
+  .p4Deco,
+  .square {
+    border-radius: 12px;
+    padding: 10px 12px;
+  }
+
+  .activator1,
+  .activator2,
+  .p4activator {
+    width: 52px;
+    height: 44px;
+    outline-width: 7px;
+  }
+
+  .bibliography {
+    padding-left: 16px;
+  }
+}
