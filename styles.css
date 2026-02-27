@@ -3,10 +3,23 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
+  min-height: 100%;
   overflow-x: hidden;
   font-family: "Times New Roman", Times, serif;  
   background: linear-gradient(#5614b0, #dbd65c);
   background-repeat: no-repeat;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 p {
@@ -761,11 +774,27 @@ p {
     gap: 14px;
   }
 
-  .ph1 > *,
-  .ph2 > *,
-  .ph3 > *,
-  .ph4 > *,
-  .ph5 > * {
+  .title,
+  .title2,
+  .title3,
+  .title4,
+  .title5,
+  .title6,
+  .sphere1,
+  .sphere2,
+  .sphere3,
+  .sphere4,
+  .sphere5,
+  .oval,
+  .rectangle1,
+  .rectangle2,
+  .p3Deco,
+  .p4Deco,
+  .halfSphereText,
+  .square,
+  .bullets,
+  .bullets2,
+  .bibliography {
     width: min(94vw, 760px);
     box-sizing: border-box;
   }
@@ -951,6 +980,7 @@ p {
   .footer p {
     text-align: center;
     font-size: 12px;
+    overflow-wrap: anywhere;
   }
 }
 

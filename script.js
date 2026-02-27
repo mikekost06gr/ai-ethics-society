@@ -1,4 +1,6 @@
-gsap.registerPlugin("scrollTrigger");
+gsap.registerPlugin(ScrollTrigger);
+
+const isMobileView = window.matchMedia("(max-width: 900px)").matches;
 
 gsap.to(".title", { duration: 1.8, top: "2%", ease: "bounce" });
 
@@ -77,6 +79,7 @@ gsap.to(".oval", {
 });
 
 function toggleRectangle1(){
+if (isMobileView) return;
 
 gsap.to(".rectangle1", {
   scrollTrigger: {
@@ -122,6 +125,7 @@ gsap.to(".rectangle1 li", {
 }
 
 function toggleRectangle2() {
+if (isMobileView) return;
 
 gsap.to(".rectangle2", {
   scrollTrigger: {
@@ -236,24 +240,29 @@ gsap.to(".p4Deco", {
 
 
 function toggleb5() {
-  gsap.to(".b5", { durationn: 0.5, opacity: 1, left: "35%" });
+  if (isMobileView) return;
+  gsap.to(".b5", { duration: 0.5, opacity: 1, left: "35%" });
 }
 
 function toggleb6() {
-  gsap.to(".b6", { durationn: 0.5, opacity: 1, top: "38%", left: "35%" });
+  if (isMobileView) return;
+  gsap.to(".b6", { duration: 0.5, opacity: 1, top: "38%", left: "35%" });
 }
 
 function toggleb7() {
-  gsap.to(".b7", { durationn: 0.5, opacity: 1, top: "53%", left: "35%" });
+  if (isMobileView) return;
+  gsap.to(".b7", { duration: 0.5, opacity: 1, top: "53%", left: "35%" });
 }
 
 function toggleb8() {
-  gsap.to(".b8", { durationn: 0.5, opacity: 1, top: "68%", left: "35%" });
+  if (isMobileView) return;
+  gsap.to(".b8", { duration: 0.5, opacity: 1, top: "68%", left: "35%" });
   gsap.to(".p4activator", { duration: 0.5, top: "70%", delay: 1, ease: "bounce.in" });  
 
 }
 
 function togglesquarep4() {
+  if (isMobileView) return;
   gsap.to(".square", { duration: 1, right: "20.5%" });
 }
 
